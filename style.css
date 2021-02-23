@@ -1,0 +1,231 @@
+* {
+    box-sizing:border-box;
+}
+
+.pagehead {
+    background-color:lightslategrey;
+    width: 15%;
+    height: 100px;
+    margin: 40px;
+    margin-top: 50px;
+    box-shadow: 5px 3px 3px grey;
+}
+
+.firstnav {
+    margin-left: 700px;
+}
+
+.navigation {
+    background-color: lightslategrey;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+  
+.navigation a {
+    float:left;
+    color: white;
+    text-align: center;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.navigation a:hover {
+    background-color: #efeee7;
+    color: rgb(141, 107, 107);
+}
+
+h1 {
+    font-family: serif;
+    color: white;
+    size: 28px;
+    padding: 25px;
+    padding-top:30px;
+    padding-left: 40px;
+}
+
+h2 {
+    font-family: serif;
+    font-size: 36px;
+    background-color: lightslategrey;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    width: 150px;
+    text-align: left;
+    box-shadow: 5px 3px 3px grey;
+}
+
+h3 {
+    font-family: serif;
+    font-size: 36px;
+    background-color: lightslategrey;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    width: fit-content;
+    text-align: left;
+}
+
+h4 {
+    font-family: serif;
+    font-size: 16px;
+    background-color: lightslategrey;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    width: fit-content;
+    text-align: left;
+    box-shadow: 5px 3px 3px grey;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #efeee7, rgb(226, 223, 223));
+    margin: 0;
+    padding: 0;
+}
+
+.flexfix {
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.container {
+    margin: 0 auto;
+    width:80%
+}
+
+.side {
+    width: 10%;
+}
+
+#bionav {
+    margin-bottom: 330px;
+    padding-left: 70px;
+}
+
+#worknav {
+    padding-left: 70px;
+    margin-bottom: 1000px;
+}
+
+#contactnav {
+    padding-left: 70px;
+}
+
+.bio {
+    size:16px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    width: 75%;
+}
+
+.selfie img {
+    border-style:solid;
+    border-color: lightslategrey;
+    background-color: white;
+    border-width: 6px;
+    margin: 0;
+    padding: 6px;
+    box-shadow: 5px 3px 3px grey;
+}
+
+.selfie { 
+    margin-left: 40px;
+    padding: 0;
+}
+
+.bio header {
+    clear: both;
+    font-family: serif;
+    font-size: larger;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    width: fit-content;
+    border-style: solid;
+    border-color: lightslategrey;
+    border-width: 4px;
+    box-shadow: 5px 3px 3px grey;
+}
+
+.mainwrk, .supwrk {
+    clear: both;
+    background-color: white;
+    border-style: solid;
+    border-color: lightslategrey;
+    border-width: 4px;
+    box-shadow: 5px 3px 3px grey;
+}
+
+.aboutme  {
+    margin: 0px;
+    margin-bottom: 100px;
+    width: 1560px;
+    height: 300px;
+    margin-top: 25px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.work, .contact{
+    margin: 0px;
+    margin-top: 100px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.mainwrk {
+    margin: 20px;
+    width: 90%;
+    height: 300px;
+}
+
+.supwrk {
+    margin: 20px;
+    width: 40%;
+    height: 300px;
+}
+
+.mainwrk p {
+    font-family: serif;
+    background-color: lightslategrey;
+    color: white;
+    padding: 2px;
+    margin-top: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+.supwrk p {
+    font-family: serif;
+    background-color: lightslategrey;
+    color: white;
+    padding: 2px;
+    margin-top: 10px;
+    width: 150px;
+    text-align: left;
+}
+
+#contactnav {margin-bottom: 70px;}
+
+.contact section {
+    margin: 40px;
+}
+
+.email {
+    color:white;
+    text-decoration:solid;
+}
+
+@media screen and (max-width: 1900px) {
+    .aboutme, .work {
+        width: auto;
+        margin: auto;
+    }
+}
+
+/* I tried to make the screen compatible with other widths but with all these divs and sections it seemed way too complicated to fix when I was so far into the project.
